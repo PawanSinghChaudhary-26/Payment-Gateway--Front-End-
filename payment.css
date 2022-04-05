@@ -1,0 +1,72 @@
+body{
+    background-color:rgb(221, 184, 245);
+    background-image: url(./images/skills.png);
+    background-repeat:no-repeat;
+    background-size:60%;
+    background-position:center;
+   border-width: 20;
+    background-blend-mode:normal;
+    backface-visibility: visible;
+}
+
+   
+
+h1{
+    color: rgb(53, 19, 247, 0.966);
+    background-color: rgb(236, 241, 240);
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 65px;
+    border-style:outset ;
+    font-family: 'Open Sans';
+  
+  
+
+}
+
+h2{
+    background-color: rgb(236, 241, 240);
+    text-align:left;
+    margin-right: 1100px;
+    font-size: 40px;
+    border-style:outset ;
+    font-family: 'Open Sans';
+  
+  
+
+}
+
+.alpha{
+    box-sizing:border-box;
+    text-align:left;
+    text-shadow: none;
+    text-decoration: solid;
+    block-size: 45px;
+    color:rgb(238, 32, 32);
+    text-decoration-color: black;
+    font-size: large;
+    
+}
+ 
+.beta{
+    background-color: rgb(238, 247, 242);
+    box-sizing:border-box;
+}
+
+.gamma{
+    background-color: rgb(114, 112, 240);
+    border-radius: 10%;
+    width: 80px;
+    height: 40px;
+   font-family: 'Open Sans';
+   box-sizing: content-box;
+   text-align: center;
+  
+  
+
+}
+
+.x{
+    color: red;
+}

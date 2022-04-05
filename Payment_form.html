@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment_form</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+
+<body>
+    <form action="">
+        <hr>
+        <h1>Payment Form</h1>
+        <p class="x">Required Fields are followed by *</p>
+        <hr>
+        <h2>Contact Information</h2>
+        <p class="alpha">Name: * <input type="text" name="name" required class="beta"></p>
+        
+            <p class="alpha" >  Gender *</p>
+             <p class="alpha">Male <input type="radio" name="gender" id="Male" required class="beta">
+                Female <input type="radio" name="gender" id="Female" required class="beta">
+            </p>
+       
+         <p class="alpha">Address: * <textarea name="address" id="address" cols="20" rows="2" class="beta"></textarea></p>
+         <p class="alpha">Email: * <input type="email" name="email" id="email" required class="beta"></p>
+         <p class="alpha">Pincode: * <input type="number" name="pincode" id="pincode" required class="beta"></p>
+         <p class="alpha">Mobile: * <input type="number" name="mobile" id="mobile" required class="beta"></p>
+         <hr>
+         <h2>Payment details</h2>
+         <p class="alpha">Card Type: 
+             <select name="card_type" id="card_type" required class="beta">
+                 <option value="" required>---Select a Card Type---</option>
+                 <option value="Visa">Visa</option>
+                 <option value="Rupay">Rupay</option>
+                 <option value="Master Card">Master Card</option>
+                 <option value="Paypal">Paypal</option>
+             </select>
+         </p>
+         <p class="alpha">Card Number: * <input type="number" name="card number" id="card number" required class="beta"></p>
+         <p class="alpha">Expiration Date: * <input type="date" name="exp_date" id="exp_date" required class="beta"></p>
+         <p class="alpha">CVV: * <input type="password" name="CVV" id="CVV" required class="beta"></p> <br> <br> <br>
+         <p class="alpha"><input type="submit" value="Pay Now"  class="gamma"></p>
+    </form>
+</body>
+</html>
